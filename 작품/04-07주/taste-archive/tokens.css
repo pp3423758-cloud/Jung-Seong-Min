@@ -1,0 +1,20 @@
+/* ═══ 내 디자인 시스템 · tokens.css (weekly-site-kit 토큰 16칸) ═══
+   파스텔 버전: 연분홍 크림 배경 + 짙은 보라 글자 + 라벤더 포인트 + 둥근 모서리 */
+:root {
+  --color-bg: #FFF4F8;        /* 배경: 연한 분홍 크림 */
+  --color-ink: #3A3350;       /* 본문: 짙은 보랏빛 (대비 11:1) */
+  --color-muted: #6B6285;     /* 보조 글자: 바랜 라벤더 (대비 5.3:1) */
+  --color-accent: #7B4BC4;    /* 강조 1점: 라벤더 보라 (대비 5.4:1) */
+  --font-body: 'Gowun Dodum', 'Pretendard', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif;    /* 본문: 부드러운 둥근 고딕 */
+  --font-display: 'Pretendard', 'Gowun Dodum', 'Apple SD Gothic Neo', 'Malgun Gothic', sans-serif; /* 제목 */
+  --size-body: 17px;          /* 본문 */
+  --size-h3: 22px;            /* 소제목 */
+  --size-h2: 36px;            /* 구역 제목 */
+  --size-h1: 64px;            /* 첫 화면 제목 */
+  --space-xs: 10px;           /* 요소 안 */
+  --space-s: 20px;            /* 요소 사이 */
+  --space-m: 48px;            /* 그룹 사이 */
+  --space-section: 130px;     /* 구역 사이 */
+  --radius: 24px;             /* 라운딩: 말랑한 모서리 */
+  --max-width: 1080px;        /* 콘텐츠 최대 폭 */
+}
